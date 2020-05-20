@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    box-shadow: 0 4.5px 2px -2px #e4e9ef;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color:#ffffff;
+}
+
+.bck-img {
+    margin-top: 25px;
+}
+
+.image-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.contents {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.btn {
+    width: 100%;
+}
+
+.main-content{
+    margin-top:70px;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        display: none;
+    }
+}
